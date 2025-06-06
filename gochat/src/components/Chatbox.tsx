@@ -13,7 +13,7 @@ export default function Chatbox() {
           return (
             <div
               key={index}
-              className="border rounded-md p-4 mt-2 flex bg-[#4E545C] shadow-lg shadow-black"
+              className="border-4  border-b-blue-200 rounded-md p-4 mt-2 flex bg-[#4E545C] shadow-lg shadow-black"
             >
               <div className="flex flex-col">
                 <p className="font-bold ml-10 text-[#000401] text-xl">User</p>
